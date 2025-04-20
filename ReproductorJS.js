@@ -1,4 +1,4 @@
-let sound = new Audio('../ConfeccionYpublicacionDepagunasWeb/SOUND/a.mp3');
+let sound = new Audio('a.mp3');
 
 
 let play = document.getElementById("play");
