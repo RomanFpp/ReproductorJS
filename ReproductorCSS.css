@@ -23,7 +23,7 @@ li{
     float: left;
     margin: auto;
     border-radius: 25px;
-    background:url(btns.png);
+    background:url(../ConfeccionYpublicacionDepagunasWeb/IMG/btns.png);
 }
 /*--------- ELEMENTOS OFF------------------*/
 
@@ -101,6 +101,6 @@ li{
     height: 89px;
     margin: auto;
     margin-top: 10px;
-    background-image: url(altavoz.png);
+    background-image: url(./IMG/altavoz.png);
 }
 /*--------- CLASES OFF------------------*/

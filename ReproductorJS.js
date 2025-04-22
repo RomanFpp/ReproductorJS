@@ -1,16 +1,22 @@
-let sound = new Audio('a.mp3');
+let sound = new Audio('../ConfeccionYpublicacionDepagunasWeb/SOUND/a.mp3');
 
 
 let play = document.getElementById("play");
     play.addEventListener('click', () =>{    
-    play.classList.toggle("play_griz");
+    play.classList.remove("play_griz");
+    play.classList.add("play_verde");
+    pause.classList.add("pause_griz");
+    pause.classList.remove("pause_verde");
     sound.play();
   });
 
 
 let pause = document.getElementById("pause");
     pause.addEventListener('click', () =>{
-    pause.classList.toggle("pause_griz");
+    pause.classList.add("pause_verde");
+    pause.classList.remove("pause_griz");
+    play.classList.remove("play_verde");
+    play.classList.add("play_griz");
     sound.pause();
    }); 
     
